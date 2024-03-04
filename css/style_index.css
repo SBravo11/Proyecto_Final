@@ -4,6 +4,7 @@
 
 body{
     background-color: #FFF5FB;
+    overflow-x: hidden;
 }
 
 #separador-main-footer{
@@ -15,6 +16,9 @@ body{
     background-color: #FFFCFE;
     border: #EC008B 1px solid;
     color: #EC008B;
+}
+a{
+    all: unset;
 }
 
 /*NAV ESTILOS*/
@@ -52,6 +56,8 @@ nav ul li:hover{
     color: #EC008B;
     cursor: pointer;
 }
+
+
 /*HEADER*/
 header{
     background-image: url('../images/b-inicio.png ');
@@ -117,17 +123,22 @@ button:hover{
     margin: 0 auto;
 }
 .paws-container img{
-    width: 300px;
+    width: 350px;
 }
 #paw-1{
     transform: rotate(-25deg);
     margin-bottom: 50%;
     padding-bottom: 150px;
+    z-index: -1;
 }
 #paw-2{
     transform: rotate(25deg);
     margin-left: 0%;
     margin-top: 80%;
+    z-index: -1;
+}
+#conocenos-container{
+    z-index: 1;
 }
 .conocenos-txt{
     text-align: center;

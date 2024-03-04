@@ -1,0 +1,201 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #FFF5FB;
+    overflow-x: hidden;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #FFFCFE;
+    border: #EC008B 1px solid;
+    color: #EC008B;
+}
+a{
+    all: unset;
+}
+
+/*NAV ESTILOS*/
+nav{
+    background-color: #FFFCFE;
+    padding-bottom: 100px;
+    height: 5vh;   
+    display: flex;
+}
+.nav_img-container{
+    width: 30%;
+    margin-left: 140px;
+}
+.nav_img-container img{
+    width: 280px;
+    height: 80px;
+    padding: 8px;
+    margin-top: 15px;
+}
+nav ul{
+    width: 70%;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-right: 140px;
+}
+nav ul li{
+    font-size: 13pt;
+    font-weight: 600;
+    padding: 30px;
+    margin: 20px 0px;
+    color: #68242b;
+}
+nav ul li:hover{
+    color: #EC008B;
+    cursor: pointer;
+}
+
+/*HEADER*/
+header{
+    background-image: url('../images/servicios/dr-meg.png');
+    background-size: cover;
+    margin: auto;
+    height: 400px;
+}
+.header-container{
+    display: flex;
+}
+.header-txt{
+    width: 30%;
+    color: #68242b;
+    margin: 80px 40px 50px 100px;
+}
+.header-txt h1{
+    line-height: 150px;
+}
+button:hover{
+    cursor: pointer;       
+}
+/*SERVICIOS*/
+main{
+    margin-top: 80px;
+}
+main h1{
+    text-align: center;
+    color: #68242b;
+}
+main h1 span{
+    color: #EC008B;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+}
+.card{
+    text-align: center;
+    border: 1px solid #68242b;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    height: 190px;
+    padding: 25px;
+    margin: 20px;
+}
+.card-image-container img{
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+
+
+/*FOOTER*/
+footer{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    background-color: #FFFCFE;
+}
+.footer_container-redes{
+    margin-left: 150px;
+    width: 25%;
+    margin-bottom: 50px;
+    color: #68242b;
+    margin-top: 25px;
+}
+.footer_container-redes img{
+    width: 300px;
+    height: 80px;
+}
+.logos img{
+    width: 2em;
+    height: 2em;
+}
+
+.footer_container-menu{
+    width: 50%;
+    margin-left: 20%;
+    color: #EC008B;
+    margin-top: 50px;
+}
+.footer-subtitle{
+    margin-top: 0;
+}
+.footer_container-menu ul{
+    color: #68242b;
+    list-style: none;
+    padding: 0;
+    line-height: 30px;
+    font-size: 11pt;
+    font-weight: 600;
+}
+.footer_container-menu ul li:hover{
+    cursor: pointer;
+    color: #EC008B;
+}
+.footer_container-contacto{
+    width: 40%;
+    margin-top: 50px;
+    color: #EC008B;
+    margin-right: 150px;
+}
+.footer_container-contacto ul{
+    color: #68242b;
+    list-style: none;
+    padding: 0;
+    font-size: 11pt;
+    line-height: 30px;
+    font-weight: 600;
+}
+.footer-b1::before{
+    content: "";
+  background-image: url("../images/logos/pin.png");
+  background-size: contain;
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  position: relative;
+  top: 0.1rem;
+  margin-right: 0.2rem;
+}
+.footer-b2::before{
+    content: "";
+  background-image: url("../images/logos/email.png");
+  background-size: contain;
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  position: relative;
+  top: 0.1rem;
+  margin-right: 0.2rem;
+}
+.footer-b3::before{
+    content: "";
+  background-image: url("../images/logos/phone.png");
+  background-size: contain;
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  position: relative;
+  top: 0.1rem;
+  margin-right: 0.2rem;
+}
